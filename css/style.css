@@ -9,6 +9,9 @@ body{
 .navbar-brand{
     line-height: 30px;
 }
+.navbar-toggler-icon{
+    color: #FFFFFF;
+}
 .text-avg{
     font-family: Reem Kufi;
 font-size: 36px;
