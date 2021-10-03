@@ -1,6 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ 
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+ 
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ 
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+ 
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+ 
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+ 
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+ 
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+ 
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+ 
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
 body{
     background-color: black !important;
+    height: 100vh!important;
+}
+.wrapper{
+    min-height: 100vh!important;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+main{
+    flex: 1 1 auto!important;
 }
 .navbar{
     background-color: #2F2C2C !important;
@@ -95,7 +185,7 @@ border-radius: 22px;
 font-style: normal;
 font-weight: normal;
 font-size:36px;
-line-height: 36px;
+
 
 color: #1B1A1A;
 
@@ -103,7 +193,96 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 footer{
     margin-top: 166px;
+    width: 100%;
 height: 73px;
 
+
 background: #2F2C2C;
+}
+
+.in__account{
+    display: flex;
+    justify-content: center;
+}
+.in__account > * {
+    margin: 0;
+    padding: 0;
+    
+
+}
+.in__account img {
+    width: 125px;
+    position: relative;
+    bottom: -80px;
+}
+
+.input__text{
+width: 400px;
+height: 100px;
+
+border: 0;
+background: #363131;
+border-radius: 46px;
+}
+.input__text:not(first-child){
+    margin-top: 20px;
+}
+.input__btn{
+    margin-top: 120px;
+}
+.input__btn{
+
+
+    
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+    width: 400px;
+height: 100px;
+border: 0;
+
+background: #363131;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 48px;
+}
+.input_account{
+    display: flex;
+    justify-content: center;
+}
+.container-in{
+    margin: auto;
+    max-width: 1000px;
+}
+.text--input{
+    text-align: center;
+    font-family: Ropa Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+margin-top: 7px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.form-check-label{
+    margin-left: 5px;
+    font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+
+/* identical to box height */
+
+
+color: #FFFFFF;
 }
