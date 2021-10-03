@@ -201,6 +201,7 @@ background: #2F2C2C;
 }
 
 .in__account{
+    max-width: 100%;
     display: flex;
     justify-content: center;
 }
