@@ -133,7 +133,7 @@ color: #FFFFFF !important;
 h1{
     margin-top: 162px;
     font-family: Reem Kufi;
-font-size: 106px!important;
+font-size: 102px!important;
 font-style: normal;
 font-weight: 400;
 line-height: 60px;
@@ -147,7 +147,7 @@ margin-top: 35px;
 font-family: Reem Kufi;
 font-style: normal;
 font-weight: normal;
-font-size: 54px;
+font-size: 51px;
 
 text-align: center;
 
@@ -159,14 +159,14 @@ color: #FFFFFF;
     margin: 24px auto;
 }
 .subtitle-bigger{
-    font-size: 72px!important;
+    font-size: 68px!important;
     margin-top: 160px!important;
 }
 .top-margin{
     margin-top: 260px!important;
 }
 .logo-main{
-    width: 300px;
+    max-width: 300px!important;
     display: block;
     margin: auto;
     margin-top: 40px;
@@ -184,7 +184,7 @@ border-radius: 22px;
     font-family: Reem Kufi;
 font-style: normal;
 font-weight: normal;
-font-size:36px;
+font-size:32px;
 
 
 color: #1B1A1A;
@@ -237,7 +237,7 @@ border-radius: 46px;
     font-family: Reem Kufi;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 32px;
 
     
     color: #FFFFFF;
@@ -266,7 +266,7 @@ border-radius: 48px;
     font-family: Ropa Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 26px;
+font-size: 22px;
 margin-top: 7px;
 /* identical to box height */
 
@@ -279,7 +279,7 @@ color: #FFFFFF;
     font-family: Reem Kufi;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 14px;
 
 /* identical to box height */
 
