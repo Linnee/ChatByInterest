@@ -6,12 +6,15 @@ body{
     background-color: #2F2C2C !important;
 
 }
+.navbar-brand{
+    line-height: 30px;
+}
 .text-avg{
     font-family: Reem Kufi;
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px;
+
 letter-spacing: 0em;
 text-align: left;
 
